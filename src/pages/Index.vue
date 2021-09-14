@@ -35,6 +35,7 @@ import api from "../services/api";
 			id: "",
 		};
 	},
+	
 	/*Vai realizar uma requisição ao Site onde tem as informações dos pokemons*/
 	async beforeMount() {
 		await this.getPokemon();
